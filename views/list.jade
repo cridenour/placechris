@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  each image in images
+    h2= image.filename
+    p Width #{image.width}
+    p Height #{image.height}
