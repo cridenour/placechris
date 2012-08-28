@@ -1,0 +1,39 @@
+.grid-block {
+	float: left;
+	&&.wide {
+		width: 900px;
+	}
+	&&.vert {
+		width: 405px;
+		img {
+			margin: 0 0 5px 0;
+		}	
+	}
+	&&.hori {
+		width: 410px;
+		img {
+			margin: 0 5px 0 0;
+		}
+	}
+}
+.container { width: 820px;}
+code {margin: 5px;}
+.code {margin: 0px;}
+
+.overlay {
+	background: rgba(0,0,0,0.6); 
+	position: absolute; 
+	color: #FFF; 
+	pointer-events: none;
+	display: none;
+	p {
+		position: relative;
+		top: 48%;
+		text-align: center;
+	}
+}
+
+.footer {
+	text-align: center;
+	margin: 50px auto 10px auto;
+}

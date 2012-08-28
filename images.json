@@ -2,61 +2,73 @@
    {
       "filename":"./source_images/0.jpg",
       "height":537,
-      "width":720
+      "width":720,
+      "sizes":["square","wide"]
    },
    {
       "filename":"./source_images/1.jpg",
       "height":720,
-      "width":480
+      "width":480,
+      "sizes":["tall"]
    },
    {
       "filename":"./source_images/2.jpg",
       "height":640,
-      "width":960
+      "width":960,
+      "sizes":["square","wide"]
    },
    {
       "filename":"./source_images/3.jpg",
       "height":722,
-      "width":960
+      "width":960,
+      "sizes":["square","wide"]
    },
    {
       "filename":"./source_images/4.jpg",
       "height":640,
-      "width":960
+      "width":960,
+      "sizes":["square","wide"]
    },
    {
       "filename":"./source_images/5.jpg",
       "height":960,
-      "width":643
+      "width":643,
+      "sizes":["tall"]
    },
    {
       "filename":"./source_images/6.jpg",
       "height":2592,
-      "width":3872
+      "width":3872,
+      "sizes":["square","wide"]
    },
    {
       "filename":"./source_images/7.jpg",
       "height":3872,
-      "width":2592
+      "width":2592,
+      "sizes":["tall"]
    },
    {
       "filename":"./source_images/8.jpg",
       "height":2592,
-      "width":3872
+      "width":3872,
+      "sizes":["square","wide","tall"]
    },
    {
       "filename":"./source_images/9.jpg",
       "height":2592,
-      "width":3872
+      "width":3872,
+      "sizes":["square","wide","tall"]
    },
    {
       "filename":"./source_images/10.jpg",
       "height":517,
-      "width":491
+      "width":491,
+      "sizes":["square"]
    },
    {
       "filename":"./source_images/11.jpg",
       "height":1280,
-      "width":720
+      "width":720,
+      "sizes":["tall"]
    }
 ]

@@ -794,6 +794,14 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .carousel-caption p{margin-bottom:0;}
 .hero-unit{padding:60px;margin-bottom:30px;background-color:#eeeeee;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.hero-unit h1{margin-bottom:0;font-size:60px;line-height:1;color:inherit;letter-spacing:-1px;}
 .hero-unit p{font-size:18px;font-weight:200;line-height:30px;color:inherit;}
+.grid-block{float:left;}.grid-block.wide{width:900px;}
+.grid-block.vert{width:405px;}.grid-block.vert img{margin:0 0 5px 0;}
+.grid-block.hori{width:410px;}.grid-block.hori img{margin:0 5px 0 0;}
+.container{width:820px;}
+code{margin:5px;}
+.code{margin:0px;}
+.overlay{background:rgba(0, 0, 0, 0.6);position:absolute;color:#FFF;pointer-events:none;display:none;}.overlay p{position:relative;top:48%;text-align:center;}
+.footer{text-align:center;margin:50px auto 10px auto;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}

@@ -1,5 +1,39 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 PlaceChris
+  p Beauty is something that should be celebrated. That's why I've created PlaceChris.
+  .me-grid
+    .grid-block.vert
+      img(src='/images/home-1.jpeg')
+      br
+      img(src='/images/home-2.jpeg')
+    .grid-block.hori
+      img(src='/images/home-3.jpeg')
+      img(src='/images/home-4.jpeg')
+    .grid-block.wide
+      img(src='/images/home-5.jpeg')
+
+  .clearfix
+  .desc
+    h3 How does it work?
+    p Just request an image by width and height and one will be returned. They are cached per size once a day.
+    h4 Examples
+    code http://placechris.com/400/400 - a square image with a chiseled square jaw
+    .code
+      br
+    code http://placechris.com/300/960 - a nice tall, handsome image
+    h4.premium I love this, I need more!
+    p Luckily for you, I am planning a premium tier for PlaceChris. This includes, but is not limited to:
+    ul
+      li Grayscale images
+      li "Unrated images"
+      li Ad replacement
+      li Chrome and Firefox themes
+    h4 How did you do this?
+    p This was a quick little project in nodejs (cause why not?). You can check out the source at 
+      a(href='http://github.com/cridenour/placechris') GitHub
+      . If you find any bugs, fix them for me.
+
+  .footer
+    &copy; 2012 Chris Ridenour
