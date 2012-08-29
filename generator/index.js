@@ -28,7 +28,7 @@ exports.list = function(req, res) {
 
 exports.generate = function(req, res) {
 
-	var renderedFileName = './cache/' + req.params.width + 'x' + req.params.height + '.jpg';
+	var renderedFileName = '/mnt/data/tmp/' + req.params.width + 'x' + req.params.height + '.jpg';
 	var ratio = parseInt(req.params.width) / parseInt(req.params.height);
 
 	async.waterfall([
