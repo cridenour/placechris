@@ -50,7 +50,7 @@ exports.generate = function(req, res) {
 		function(cacheFile, callback) {
 			if(cacheFile !== null) {
 				var img = fs.readFileSync(cacheFile)
-				res.writeHead(304, {'Content-Type': 'image/jpeg'})
+				res.writeHead(200, {'Content-Type': 'image/jpeg'})
 				res.end(img, 'binary')
 			} else {
 				console.log('No cache or expired cache. Regenerating.')
